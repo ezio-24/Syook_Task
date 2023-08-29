@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io.connect('http://localhost:3001'); // Adjust the URL to match the Listener Service's URL
+const socket = io.connect('http://localhost:3000'); // Adjust the URL to match the Listener Service's URL
 
 function App() {
     const [messages, setMessages] = useState([]);
